@@ -128,6 +128,11 @@ nav{
     font-size: 3em;
  }
 
+ .skill-logo h2{
+   font-family: 'Roboto Condensed', sans-serif;
+
+ }
+
  .skill-card {
     width: 75%;
     overflow: hidden;
