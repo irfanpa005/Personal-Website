@@ -2,10 +2,6 @@ html,body{
    overflow-x: hidden;
 }
 
-h2{
-   font-size: 2rem;
-}
-
 
 header{
    position: fixed;
@@ -41,8 +37,8 @@ nav{
 }
 
 .bg-photo > img{
-   max-width: 20rem;
-   width: 50%;
+   /* max-width: 15rem; */
+   max-width: clamp(10rem,18vw,15rem);
 }
 
 .name-div{
@@ -73,10 +69,12 @@ nav{
 
 .intro-desc{
     font-family: 'Courgette', cursive;
-    font-size: 1.1em;
+    /* font-size: 0.85rem; */
     font-weight: 500;
     padding:0px 3vw;
     color: #530a0a;
+    font-size: clamp(0.8rem,1.2rem);
+    text-align: justify;
 
 }
 
@@ -171,7 +169,7 @@ nav{
       font-size: 1.8rem;
    }
     .intro-desc{
-        font-size: 0.8em;
+        /* font-size: 0.8em; */
         padding:0px 5px;
     
     }
